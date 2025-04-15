@@ -1,6 +1,22 @@
+:root {
+  --font-1: "Montserrat";
+
+  --font-color-1: whitesmoke;
+  --font-color-2: rgb(26, 26, 26);
+  --bg-color-1: rgb(26, 26, 26);
+  --bg-color-2: whitesmoke;
+
+  --section-width: 90rem;
+  --section-padding: 1.0rem;
+
+  --font-color: var(--font-color-1);
+  --bg-color: var(--bg-color-1);
+}
 body {
+  color: var(--font-color);
   margin: 0;
 }
 body * {
   box-sizing: border-box;
+  margin: 0;
 }
