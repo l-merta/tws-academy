@@ -1,6 +1,6 @@
 .hero-main {
   width: 100%;
-  padding: 10rem var(--section-padding);
+  padding: 14rem var(--section-padding);
   padding-bottom: 0;
   position: relative;
   display: flex;
@@ -48,4 +48,21 @@
   width: 24rem;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.action {
+  color: var(--font-color-1);
+  background-color: var(--color-1);
+  font: 600 1.4rem var(--font-1);
+  padding: 0.8rem 1.6rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  text-decoration: none;
+  transition: 0.12s;
+  cursor: pointer;
+}
+.action:hover {
+  opacity: 0.9;
 }/*# sourceMappingURL=main.css.map */
