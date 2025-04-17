@@ -25,6 +25,29 @@ const home = () => {
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae deserunt aperiam nulla quo sit quos at aut a doloremque ea! Aliquam animi doloribus at labore quo, impedit modi sequi numquam!</p>
       </div>
     </section>
+    <section className="kurzy section-black">
+      <h2>Kurzy</h2>
+      <div className="text">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam aut, doloribus nostrum dolorem eligendi, dolores placeat quasi optio, commodi iure doloremque repellat obcaecati beatae aspernatur recusandae odio harum a consectetur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae deserunt aperiam nulla quo sit quos at aut a doloremque ea! Aliquam animi doloribus at labore quo, impedit modi sequi numquam!</p>
+      </div>
+    </section>
+    <section className="recenze section-white">
+      <h2>Recenze</h2>
+      <div className="text">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam aut, doloribus nostrum dolorem eligendi, dolores placeat quasi optio, commodi iure doloremque repellat obcaecati beatae aspernatur recusandae odio harum a consectetur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae deserunt aperiam nulla quo sit quos at aut a doloremque ea! Aliquam animi doloribus at labore quo, impedit modi sequi numquam!</p>
+      </div>
+    </section>
+    <section className="banner-section section-black">
+      <h2>*Tady bude banner*</h2>
+    </section>
+    <section className="kontakt section-black">
+      <h2>Kontakt</h2>
+      <div className="text">
+        <p>Dobrý den, tady kontakt</p>
+      </div>
+    </section>
     </>
   )
 }
