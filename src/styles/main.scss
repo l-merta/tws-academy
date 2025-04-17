@@ -85,6 +85,12 @@ header {
     }
   }
 }
+footer {
+  color: var(--font-color-1);
+  background-color: var(--bg-color-3);
+  width: 100%;
+  padding: 2.0rem 5vw;
+}
 section {
   color: var(--font-color);
   background-color: var(--bg-color);

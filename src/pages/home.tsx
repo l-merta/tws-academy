@@ -2,11 +2,12 @@
 
 import Header from './../sections/Header';
 import Action from './../components/Action';
+import Footer from './../sections/Footer';
 
 const home = () => {
   return (
     <>
-    <Header></Header>
+    <Header />
     <main className="hero-main">
       <img className="hero-bg" src="/images/bg/saf_bg.png" alt="" />
       <div className="container">
@@ -48,6 +49,7 @@ const home = () => {
         <p>Dobrý den, tady kontakt</p>
       </div>
     </section>
+    <Footer />
     </>
   )
 }
