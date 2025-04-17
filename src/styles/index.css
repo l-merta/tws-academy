@@ -1,6 +1,32 @@
+:root {
+  --font-1: "Montserrat";
+
+  --font-color-1: whitesmoke;
+  --font-color-2: rgb(26, 26, 26);
+  --bg-color-1: rgb(26, 26, 26);
+  --bg-color-2: whitesmoke;
+  --bg-color-3: rgb(22, 22, 22);
+
+  --color-1: rgb(218, 149, 0);
+
+  --header-height: 5rem;
+  --section-width: 90rem;
+  --section-padding: 1.0rem;
+
+  --font-color: var(--font-color-1);
+  --bg-color: var(--bg-color-1);
+}
 body {
+  color: var(--font-color);
+  font-family: var(--font-1);
   margin: 0;
 }
 body * {
   box-sizing: border-box;
+  margin: 0;
+}
+
+h2 {
+  font: 700 2.4rem var(--font-1);
+  text-align: center;
 }
