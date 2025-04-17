@@ -8,6 +8,7 @@
 
   --color-1: rgb(218, 149, 0);
 
+  --header-height: 5rem;
   --section-width: 90rem;
   --section-padding: 1.0rem;
 
@@ -22,4 +23,9 @@ body {
 body * {
   box-sizing: border-box;
   margin: 0;
+}
+
+h2 {
+  font: 700 2.4rem var(--font-1);
+  text-align: center;
 }
