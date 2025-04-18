@@ -1,6 +1,7 @@
 //import React from 'react'
 
 import Header from './../sections/Header';
+import SectionHeader from './../components/SectionHeader';
 import Action from './../components/Action';
 import Banner from './../components/Banner';
 import Footer from './../sections/Footer';
@@ -21,21 +22,21 @@ const home = () => {
       </div>
     </main>
     <section className="o-nas section-black">
-      <h2>O naší akademii</h2>
+      <SectionHeader icon="swords">O naší akademii</SectionHeader>
       <div className="text">
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam aut, doloribus nostrum dolorem eligendi, dolores placeat quasi optio, commodi iure doloremque repellat obcaecati beatae aspernatur recusandae odio harum a consectetur.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae deserunt aperiam nulla quo sit quos at aut a doloremque ea! Aliquam animi doloribus at labore quo, impedit modi sequi numquam!</p>
       </div>
     </section>
     <section className="kurzy section-black">
-      <h2>Kurzy</h2>
+      <SectionHeader icon="book">Kurzy</SectionHeader>
       <div className="text">
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam aut, doloribus nostrum dolorem eligendi, dolores placeat quasi optio, commodi iure doloremque repellat obcaecati beatae aspernatur recusandae odio harum a consectetur.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae deserunt aperiam nulla quo sit quos at aut a doloremque ea! Aliquam animi doloribus at labore quo, impedit modi sequi numquam!</p>
       </div>
     </section>
     <section className="recenze section-white">
-      <h2>Recenze</h2>
+      <SectionHeader icon="star">Recenze</SectionHeader>
       <div className="text">
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam aut, doloribus nostrum dolorem eligendi, dolores placeat quasi optio, commodi iure doloremque repellat obcaecati beatae aspernatur recusandae odio harum a consectetur.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae deserunt aperiam nulla quo sit quos at aut a doloremque ea! Aliquam animi doloribus at labore quo, impedit modi sequi numquam!</p>
@@ -50,7 +51,7 @@ const home = () => {
       </Banner>
     </section>
     <section className="kontakt section-black">
-      <h2>Kontakt</h2>
+      <SectionHeader icon="envelope">Kontakt</SectionHeader>
       <div className="text">
         <p>Dobrý den, tady kontakt</p>
       </div>
