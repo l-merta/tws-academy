@@ -106,6 +106,9 @@ footer {
   background-color: var(--bg-color-3);
   width: 100%;
   padding: 2.0rem 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 section {
   color: var(--font-color);
