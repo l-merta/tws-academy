@@ -60,6 +60,7 @@
   .banner-bg {
     width: 100%;
     height: 100%;
+    border-radius: 0;
     object-fit: cover;
     position: absolute;
     top: 0;
@@ -116,8 +117,16 @@ section {
   padding: 4.0rem var(--section-padding);
   display: flex;
   flex-direction: column;
-  gap: 2.0rem;
+  gap: 3.0rem;
 
+  p {
+    font: 400 1.4rem var(--font-1);
+  }
+  img {
+    width: 40rem;
+    border-radius: 1.0rem;
+    margin: 0 auto;
+  }
   &.section-black {
     --font-color: var(--font-color-1);
     --bg-color: var(--bg-color-1);
@@ -132,7 +141,7 @@ section {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 1.0rem;
+  gap: 2.0rem;
 }
 .blur-effect {
   background-color: rgba(26, 26, 26, 0.9);
@@ -188,6 +197,6 @@ section {
     border-radius: 0.5rem;
     position: absolute;
     bottom: -0.6rem;
-    left: -10%;
+    left: -8%;
   }
 }

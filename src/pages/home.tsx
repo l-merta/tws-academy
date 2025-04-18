@@ -24,8 +24,9 @@ const home = () => {
     <section className="o-nas section-black">
       <SectionHeader icon="swords">O naší akademii</SectionHeader>
       <div className="text">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam aut, doloribus nostrum dolorem eligendi, dolores placeat quasi optio, commodi iure doloremque repellat obcaecati beatae aspernatur recusandae odio harum a consectetur.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam aut, doloribus nostrum dolorem eligendi, dolores placeat quasi optio, commodi iure doloremque repellat obcaecati beatae aspernatur recusandae odio harum a consectetur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas minus quam assumenda temporibus alias commodi veniam facilis deleniti? Atque placeat omnis, consectetur maiores nihil mollitia eos fugiat numquam quos consequuntur.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae deserunt aperiam nulla quo sit quos at aut a doloremque ea! Aliquam animi doloribus at labore quo, impedit modi sequi numquam!</p>
+        <img src="/images/bg/gif.gif" alt="" />
       </div>
     </section>
     <section className="kurzy section-black">
