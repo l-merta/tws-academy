@@ -17,7 +17,6 @@
     z-index: -1;
   }
   .container {
-    background-color: rgba(26, 26, 26, 0.9);
     width: 100%;
     max-width: var(--section-width);
     border-radius: 2.5rem;
@@ -27,7 +26,6 @@
     display: flex;
     justify-content: center;
     gap: 4.0rem;
-    backdrop-filter: blur(6px);
 
     .hero-text {
       display: flex;
@@ -49,6 +47,24 @@
       width: 24rem;
       object-fit: cover;
     }
+  }
+}
+.banner-section {
+  background-color: transparent;
+  min-height: 50rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .banner-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
   }
 }
 
@@ -115,6 +131,10 @@ section {
   flex-direction: column;
   gap: 1.0rem;
 }
+.blur-effect {
+  background-color: rgba(26, 26, 26, 0.9);
+  backdrop-filter: blur(6px);
+}
 .action {
   color: var(--font-color-1);
   background-color: var(--color-1);
@@ -130,5 +150,20 @@ section {
 
   &:hover {
     opacity: 0.9;
+  }
+}
+.banner {
+  width: 100%;
+  max-width: var(--section-width);
+  border-radius: 1.5rem;
+  padding: 2.0rem 3.0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.0rem;
+
+  p {
+    font: 400 1.4rem var(--font-1);
+    max-width: 60rem;
   }
 }

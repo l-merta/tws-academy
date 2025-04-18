@@ -18,7 +18,6 @@
   z-index: -1;
 }
 .hero-main .container {
-  background-color: rgba(26, 26, 26, 0.9);
   width: 100%;
   max-width: var(--section-width);
   border-radius: 2.5rem;
@@ -28,8 +27,6 @@
   display: flex;
   justify-content: center;
   gap: 4rem;
-  -webkit-backdrop-filter: blur(6px);
-          backdrop-filter: blur(6px);
 }
 .hero-main .container .hero-text {
   display: flex;
@@ -50,6 +47,25 @@
   width: 24rem;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.banner-section {
+  background-color: transparent;
+  min-height: 50rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-section .banner-bg {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 header {
@@ -115,6 +131,12 @@ section.section-white {
   gap: 1rem;
 }
 
+.blur-effect {
+  background-color: rgba(26, 26, 26, 0.9);
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+}
+
 .action {
   color: var(--font-color-1);
   background-color: var(--color-1);
@@ -130,4 +152,19 @@ section.section-white {
 }
 .action:hover {
   opacity: 0.9;
+}
+
+.banner {
+  width: 100%;
+  max-width: var(--section-width);
+  border-radius: 1.5rem;
+  padding: 2rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.banner p {
+  font: 400 1.4rem var(--font-1);
+  max-width: 60rem;
 }/*# sourceMappingURL=main.css.map */

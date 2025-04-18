@@ -2,6 +2,7 @@
 
 import Header from './../sections/Header';
 import Action from './../components/Action';
+import Banner from './../components/Banner';
 import Footer from './../sections/Footer';
 
 const home = () => {
@@ -10,7 +11,7 @@ const home = () => {
     <Header />
     <main className="hero-main">
       <img className="hero-bg" src="/images/bg/saf_bg.png" alt="" />
-      <div className="container">
+      <div className="container blur-effect">
         <div className="hero-text">
           <h1>Akademie mýtických postav</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quisquam, illo debitis accusamus accusantium molestias corporis quibusdam pariatur odit nihil itaque tenetur delectus consectetur veniam. Maxime recusandae ducimus tempore. Laborum.</p>
@@ -41,7 +42,12 @@ const home = () => {
       </div>
     </section>
     <section className="banner-section section-black">
-      <h2>*Tady bude banner*</h2>
+      <img className='banner-bg' src="/images/bg/saf_bg2.png" alt="" />
+      <Banner 
+        action={<Action link='#kurzy' icon='list-tree'>Nabídka kurzů</Action>}
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum libero architecto numquam ut nihil. Ducimus numquam laborum exercitationem nemo.
+      </Banner>
     </section>
     <section className="kontakt section-black">
       <h2>Kontakt</h2>
