@@ -3,6 +3,7 @@
 import Header from './../sections/Header';
 import SectionHeader from './../components/SectionHeader';
 import Action from './../components/Action';
+import CoursePicker from './../sections/CoursePicker';
 import Banner from './../components/Banner';
 import Contact from './../sections/Contact';
 import Footer from './../sections/Footer';
@@ -19,7 +20,11 @@ const home = () => {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quisquam, illo debitis accusamus accusantium molestias corporis quibusdam pariatur odit nihil itaque tenetur delectus consectetur veniam. Maxime recusandae ducimus tempore. Laborum.</p>
           <Action link='#kurzy' icon='list-tree'>Nabídka kurzů</Action>
         </div>
-        <img className="hero-img" src="https://unsplash.it/2000/2000" alt="" />
+        {/* <img className="hero-img" src="https://unsplash.it/2000/2000" alt="" /> */}
+        <video autoPlay loop muted playsInline className='hero-img'>
+          <source src={"/images/classes/warrior_animation_idle.webm"} type="video/webm" />
+          Your browser does not support the video tag.
+        </video>
       </div>
     </main>
     <section className="o-nas section-black">
@@ -32,10 +37,7 @@ const home = () => {
     </section>
     <section className="kurzy section-black">
       <SectionHeader icon="book">Kurzy</SectionHeader>
-      <div className="text">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam aut, doloribus nostrum dolorem eligendi, dolores placeat quasi optio, commodi iure doloremque repellat obcaecati beatae aspernatur recusandae odio harum a consectetur.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae deserunt aperiam nulla quo sit quos at aut a doloremque ea! Aliquam animi doloribus at labore quo, impedit modi sequi numquam!</p>
-      </div>
+      <CoursePicker />
     </section>
     <section className="recenze section-white">
       <SectionHeader icon="star">Recenze</SectionHeader>
