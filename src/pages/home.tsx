@@ -4,6 +4,7 @@ import Header from './../sections/Header';
 import SectionHeader from './../components/SectionHeader';
 import Action from './../components/Action';
 import Banner from './../components/Banner';
+import Contact from './../sections/Contact';
 import Footer from './../sections/Footer';
 
 const home = () => {
@@ -51,12 +52,7 @@ const home = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum libero architecto numquam ut nihil. Ducimus numquam laborum exercitationem nemo.
       </Banner>
     </section>
-    <section className="kontakt section-black">
-      <SectionHeader icon="envelope">Kontakt</SectionHeader>
-      <div className="text">
-        <p>Dobrý den, tady kontakt</p>
-      </div>
-    </section>
+    <Contact />
     <Footer />
     </>
   )

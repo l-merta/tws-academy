@@ -68,6 +68,61 @@
     z-index: -1;
   }
 }
+.kontakt {
+  .data-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4.0rem;
+
+    .text {
+      margin: 0;
+
+      ul {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 1.0rem;
+        list-style: none;
+
+        .contact-info-link {
+          color: var(--font-color-1);
+          font: 400 1.4rem var(--font-1);
+          display: flex;
+          align-items: center;
+          gap: 0.8rem;
+          text-decoration: none;
+          transition: .12s;
+          cursor: pointer;
+
+          &:hover {
+            color: var(--color-1);
+            opacity: 1.0;
+
+            .icon-container {
+              border-color: var(--color-1);
+            }
+          }
+          .icon-container {
+            background-color: rgba(255, 255, 255, 0.05);
+            width: 2.8rem;
+            height: 2.8rem;
+            border: 1px solid var(--font-color-1);
+            border-radius: 0.2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: .12s;
+          }
+        }
+      }
+    }
+    .map-container {
+      width: 100%;
+      max-width: 40rem;
+    }
+  }
+}
 
 header {
   background: rgba(0, 0, 0, 0.01);
