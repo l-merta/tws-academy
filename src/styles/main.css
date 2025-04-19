@@ -86,7 +86,7 @@
   list-style: none;
 }
 .kontakt .data-container .text ul .contact-info-link {
-  color: var(--font-color-1);
+  color: var(--font-color);
   font: 400 1.4rem var(--font-1);
   display: flex;
   align-items: center;
@@ -106,7 +106,7 @@
   background-color: rgba(255, 255, 255, 0.05);
   width: 2.8rem;
   height: 2.8rem;
-  border: 1px solid var(--font-color-1);
+  border: 1px solid var(--font-color);
   border-radius: 0.4rem;
   display: flex;
   justify-content: center;
