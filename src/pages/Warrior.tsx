@@ -2,6 +2,7 @@
 
 import Header from './../sections/Header';
 import SectionHeaderMain from './../components/SectionHeaderMain';
+import TimeBanner from '../sections/TimeBanner';
 import Action from './../components/Action';
 import Contact from './../sections/Contact';
 import Footer from './../sections/Footer';
@@ -24,6 +25,7 @@ const Warrior = () => {
         </video>
       </div>
     </main>
+    <TimeBanner />
     <Contact />
     <Footer />
     </>

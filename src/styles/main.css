@@ -149,6 +149,16 @@
   z-index: -1;
 }
 
+.time-banner-section {
+  color: var(--font-color-2);
+  background-color: var(--color-1);
+  font: 600 2rem var(--font-1);
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .kontakt .data-container {
   display: flex;
   justify-content: center;
