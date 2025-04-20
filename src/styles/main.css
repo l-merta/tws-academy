@@ -333,6 +333,71 @@ section.section-white {
   gap: 2rem;
 }
 
+.carousel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.carousel .carousel-slide {
+  position: relative;
+}
+.carousel .carousel-slide img {
+  width: 100%;
+  max-width: 50rem;
+  border-radius: 1rem;
+}
+.carousel .carousel-controls {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+.carousel .carousel-controls button {
+  color: var(--font-color-1);
+  background-color: var(--font-color-2);
+  width: 2.8rem;
+  height: 2.8rem;
+  border: 1px solid var(--font-color-1);
+  border-radius: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.12s;
+}
+.carousel .carousel-controls button:hover {
+  background-color: var(--font-color-1);
+  color: var(--font-color-2);
+}
+.carousel .carousel-indicators {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.carousel .carousel-indicators button {
+  background-color: var(--font-color);
+  aspect-ratio: 1/1;
+  width: 1.2rem;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.12s;
+}
+.carousel .carousel-indicators button:hover {
+  opacity: 0.6;
+}
+.carousel .carousel-indicators button.active {
+  background-color: var(--color-1);
+}
+
 .blur-effect {
   background-color: rgba(26, 26, 26, 0.9);
   -webkit-backdrop-filter: blur(6px);

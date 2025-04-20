@@ -2,6 +2,7 @@ import Header from '../sections/Header';
 import SectionHeader from '../components/SectionHeader';
 import Action from '../components/Action';
 import CoursePicker from '../sections/CoursePicker';
+import Carousel from '../sections/Carousel';
 import Review from './../components/Review'
 import Banner from '../components/Banner';
 import Contact from '../sections/Contact';
@@ -36,6 +37,10 @@ const home = () => {
       <section id="kurzy" className="kurzy section-black">
         <SectionHeader icon="book">Kurzy</SectionHeader>
         <CoursePicker />
+      </section>
+      <section id="galerie" className="galerie section-white">
+        <SectionHeader icon="image">Galerie</SectionHeader>
+        <Carousel />
       </section>
       <section id="recenze" className="recenze section-white">
         <SectionHeader icon="star">Recenze</SectionHeader>
