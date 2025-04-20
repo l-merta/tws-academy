@@ -123,6 +123,12 @@
   overflow: visible;
 }
 
+.recenze .text {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  gap: 4rem 2.5rem;
+}
+
 .banner-section {
   background-color: transparent;
   min-height: 50rem;
@@ -332,4 +338,48 @@ section.section-white {
   border-radius: 0.5rem;
   position: absolute;
   bottom: -0.6rem;
+}
+
+.review {
+  display: flex;
+  align-items: start;
+  gap: 1.2rem;
+}
+.review .s1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+}
+.review .s1 img {
+  aspect-ratio: 1/1;
+  width: 4.5rem;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.review .s1 .rating {
+  font: 600 1rem var(--font-1);
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.review .s1 .rating i {
+  color: var(--color-1);
+}
+.review .s2 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 0.4rem;
+}
+.review .s2 .name {
+  opacity: 0.6;
+  font: 700 1rem var(--font-1);
+}
+.review .s2 .text {
+  font: 500 1rem var(--font-1);
+  max-width: 40rem;
 }/*# sourceMappingURL=main.css.map */

@@ -135,6 +135,13 @@
     }
   }
 }
+.recenze {
+  .text {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 4.0rem 2.5rem;
+  }
+}
 .banner-section {
   background-color: transparent;
   min-height: 50rem;
@@ -349,5 +356,51 @@ section {
     position: absolute;
     bottom: -0.6rem;
     //left: -8%;
+  }
+}
+.review {
+  display: flex;
+  align-items: start;
+  gap: 1.2rem;
+
+  .s1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.6rem;
+
+    img {
+      aspect-ratio: 1/1;
+      width: 4.5rem;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .rating {
+      font: 600 1.0rem var(--font-1);
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+
+      i {
+        color: var(--color-1);
+      }
+    }
+  }
+  .s2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 0.4rem;
+
+    .name {
+      opacity: 0.6;
+      font: 700 1.0rem var(--font-1);
+    }
+    .text {
+      font: 500 1.0rem var(--font-1);
+      max-width: 40rem;
+    }
   }
 }

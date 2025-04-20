@@ -2,6 +2,7 @@ import Header from '../sections/Header';
 import SectionHeader from '../components/SectionHeader';
 import Action from '../components/Action';
 import CoursePicker from '../sections/CoursePicker';
+import Review from './../components/Review'
 import Banner from '../components/Banner';
 import Contact from '../sections/Contact';
 import Footer from '../sections/Footer';
@@ -39,8 +40,11 @@ const home = () => {
       <section id="recenze" className="recenze section-white">
         <SectionHeader icon="star">Recenze</SectionHeader>
         <div className="text">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam aut, doloribus nostrum dolorem eligendi, dolores placeat quasi optio, commodi iure doloremque repellat obcaecati beatae aspernatur recusandae odio harum a consectetur.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae deserunt aperiam nulla quo sit quos at aut a doloremque ea! Aliquam animi doloribus at labore quo, impedit modi sequi numquam!</p>
+          <Review userPic='gandalf.webp' name='Gandalf Bílý' rating={4}>Skvělá atmosféra, výborní učitelé magie a žádné balrogové ve sklepě – což kvituji. Jednu hvězdu strhávám za to, že průzkumníci pořád běhají po chodbách.</Review>
+          <Review userPic='medusa.webp' name='Medúsa' rating={2}>Nadějná instituce, ale absolutně žádná inkluze pro kamenné bytosti. Všichni na mě koukali. Doufala jsem v přátelské prostředí, ne v další galerii soch.</Review>
+          <Review userPic='zeus.webp' name='Zeus' rating={4.5}>Kurzy magie slušné, i když jsem musel dodělat pár úkolů za Poseidona. Přednášky o bouřích mě trochu nudily – kdo by to byl řekl. Jinak fajn, doporučuju mladým polobohům.</Review>
+          <Review userPic='smak.png' name='Drak Šmak' rating={4}>Knihovna pěkná, ale neměli ani jednu knihu o tom, jak správně hromadit poklady. Navíc se mě pořád někdo snažil ochočit. Čtyři hvězdy dávám hlavně za vybavení alchymistické laboratoře – velmi výbušná.</Review>
+          <Review userPic='artus.png' name='Král Artuš' rating={5}>Výuka skvělá, hlavně taktika a kouzlení. Jediný zápor – meč v kameni je tu už vytažený. Takže jsem si místo toho zapsal kurz “Diplomacie s draky” a překvapivě to nebylo úplně zlé.</Review>
         </div>
       </section>
       <section className="banner-section section-black">
