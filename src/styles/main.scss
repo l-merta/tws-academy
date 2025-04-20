@@ -164,11 +164,12 @@
 .time-banner-section {
   color: var(--font-color-2);
   background-color: var(--color-1);
-  font: 600 2.0rem var(--font-1);
-  height: 5rem;
+  font: 700 1.6rem var(--font-1);
+  padding: 2.0rem var(--section-padding);
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .kontakt {
   .data-container {
