@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import RedirectScroll from './managers/RedirectScroll';
 import ScrollToAnchor from './managers/ScrollToAnchor';
 
-import Home from './pages/Home';
+import Home from './pages/home';
 import Warrior from './pages/Warrior';
 import Scout from './pages/Scout';
 import Mage from './pages/Mage';
