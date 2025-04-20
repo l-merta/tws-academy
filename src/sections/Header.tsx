@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <header>
-      <div className="logo">Akademie</div>
+      <div className="logo">
+        <Link to={'/'}>Akademie</Link>
+      </div>
       <nav>
         <ul className="nav-list">
           <li><Link to={'/#o-nas'}>O nás</Link></li>

@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 interface CoursePickerItemProps {
   children: React.ReactNode;
   header: string;
+  link: string;
   className: string;
   activeClass: string;
   setActiveClass: (className: string) => void;
@@ -11,7 +12,7 @@ interface CoursePickerItemProps {
 
 const CoursePickerItem:React.FC<CoursePickerItemProps> = (props: CoursePickerItemProps) => {
   const active = props.className == props.activeClass ? 'active' : 'inactive';
-  const link = '/kurzy/' + props.className;
+  const link = '/' + props.link;
   const iconFile = '/images/classes/icon_' + props.className + '_' + active + '.png';
 
   function onHover() {

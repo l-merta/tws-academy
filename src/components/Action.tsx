@@ -13,7 +13,7 @@ const Action = (props: ActionProps) => {
 
   return (
     <Link to={props.link} className='action'>
-      <i className={'fa-' + iconStyle + ' fa-' + props.icon}></i>
+      {props.icon && <i className={'fa-' + iconStyle + ' fa-' + props.icon}></i>}
       <span className="action-text">{props.children}</span>
     </Link>
   )

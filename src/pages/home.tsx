@@ -1,12 +1,12 @@
 //import React from 'react'
 
-import Header from './../sections/Header';
-import SectionHeader from './../components/SectionHeader';
-import Action from './../components/Action';
-import CoursePicker from './../sections/CoursePicker';
-import Banner from './../components/Banner';
-import Contact from './../sections/Contact';
-import Footer from './../sections/Footer';
+import Header from '../sections/Header';
+import SectionHeader from '../components/SectionHeader';
+import Action from '../components/Action';
+import CoursePicker from '../sections/CoursePicker';
+import Banner from '../components/Banner';
+import Contact from '../sections/Contact';
+import Footer from '../sections/Footer';
 
 const home = () => {
   return (
@@ -20,7 +20,6 @@ const home = () => {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quisquam, illo debitis accusamus accusantium molestias corporis quibusdam pariatur odit nihil itaque tenetur delectus consectetur veniam. Maxime recusandae ducimus tempore. Laborum.</p>
           <Action link='#kurzy' icon='list-tree'>Nabídka kurzů</Action>
         </div>
-        {/* <img className="hero-img" src="https://unsplash.it/2000/2000" alt="" /> */}
         <video autoPlay loop muted playsInline className='hero-img'>
           <source src={"/images/classes/warrior_animation_idle.webm"} type="video/webm" />
           Your browser does not support the video tag.
