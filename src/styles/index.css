@@ -18,6 +18,9 @@
   --font-color: var(--font-color-1);
   --bg-color: var(--bg-color-1);
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   color: var(--font-color);
   font-family: var(--font-1);

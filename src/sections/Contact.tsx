@@ -4,7 +4,7 @@ import Map from './../components/Map';
 
 const Contact = () => {
   return (
-    <section className="kontakt section-black">
+    <section id='kontakt' className="kontakt section-black">
       <SectionHeader icon="envelope">Kontakt</SectionHeader>
       <div className="data-container">
         <div className="text">
