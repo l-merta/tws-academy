@@ -3,12 +3,12 @@ import SectionHeader from '../components/SectionHeader';
 import Action from '../components/Action';
 import CoursePicker from '../sections/CoursePicker';
 import Carousel from '../sections/Carousel';
-import Review from './../components/Review'
+import Review from '../components/Review'
 import Banner from '../components/Banner';
 import Contact from '../sections/Contact';
 import Footer from '../sections/Footer';
 
-const home = () => {
+const Home = () => {
   return (
     <>
       <Header />
@@ -66,4 +66,4 @@ const home = () => {
   );
 };
 
-export default home;
+export default Home;
