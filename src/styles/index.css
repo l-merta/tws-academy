@@ -1,3 +1,5 @@
+@import 'leaflet/dist/leaflet.css';
+
 :root {
   --font-1: "Montserrat";
 
@@ -16,6 +18,9 @@
   --font-color: var(--font-color-1);
   --bg-color: var(--bg-color-1);
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   color: var(--font-color);
   font-family: var(--font-1);
@@ -24,9 +29,4 @@ body {
 body * {
   box-sizing: border-box;
   margin: 0;
-}
-
-h2 {
-  font: 700 2.4rem var(--font-1);
-  text-align: center;
 }
