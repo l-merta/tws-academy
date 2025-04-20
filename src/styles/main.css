@@ -47,6 +47,7 @@
   width: 24rem;
   -o-object-fit: cover;
      object-fit: cover;
+  overflow: visible;
 }
 
 .o-nas img {
@@ -119,6 +120,7 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  overflow: visible;
 }
 
 .banner-section {
@@ -231,6 +233,14 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+footer a {
+  color: var(--font-color);
+  margin-left: 0.3rem;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
 }
 
 section {

@@ -15,7 +15,7 @@ const Warrior = () => {
       <div className="container blur-effect">
         <div className="hero-text">
           <SectionHeaderMain icon="swords">Rytíř</SectionHeaderMain>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quisquam, illo debitis accusamus accusantium molestias corporis quibusdam pariatur odit nihil itaque tenetur delectus consectetur veniam. Maxime recusandae ducimus tempore. Laborum.</p>
+          <p>Rytíř je opora každé výpravy. Silný, statečný a dost tvrdohlavý na to, aby šel první i do úplně zbytečné pasti. S mečem v ruce a hlavou v oblacích chrání ostatní – často i před problémy, které sám způsobil.</p>
           <Action link=''>Zaregistrovat se</Action>
         </div>
         <video autoPlay loop muted playsInline className='hero-img'>

@@ -15,7 +15,7 @@ const Mage = () => {
       <div className="container blur-effect">
         <div className="hero-text">
           <SectionHeaderMain icon="staff">Čaroděj</SectionHeaderMain>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quisquam, illo debitis accusamus accusantium molestias corporis quibusdam pariatur odit nihil itaque tenetur delectus consectetur veniam. Maxime recusandae ducimus tempore. Laborum.</p>
+          <p>Čaroděj je chodící knihovna plná ohnivých kouzel, záhadných formulí a občas i menších výbuchů. Ačkoliv fyzicky zvládne sotva unést vlastní hůl, jeho moc může převrátit průběh celé bitvy. Pokud si zrovna nezamění kouzla.</p>
           <Action link=''>Zaregistrovat se</Action>
         </div>
         <video autoPlay loop muted playsInline className='hero-img'>

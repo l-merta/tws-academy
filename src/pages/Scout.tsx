@@ -15,7 +15,7 @@ const Scout = () => {
       <div className="container blur-effect">
         <div className="hero-text">
           <SectionHeaderMain icon="bow-arrow">Průzkumník</SectionHeaderMain>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quisquam, illo debitis accusamus accusantium molestias corporis quibusdam pariatur odit nihil itaque tenetur delectus consectetur veniam. Maxime recusandae ducimus tempore. Laborum.</p>
+          <p>Nikdo ho nevidí přicházet, a když ho spatříš, je už pozdě. Průzkumník spoléhá na rychlost, chytrost a zásadu „první vystřel, pak se ptej“. Je mistr pastí, zákeřností a nečekaných zmizení, ideální pro každého, kdo má rád akci na dálku.</p>
           <Action link=''>Zaregistrovat se</Action>
         </div>
         <video autoPlay loop muted playsInline className='hero-img'>

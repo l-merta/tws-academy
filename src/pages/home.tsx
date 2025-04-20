@@ -15,7 +15,7 @@ const home = () => {
         <div className="container blur-effect">
           <div className="hero-text">
             <h1>Akademie mýtických postav</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quisquam, illo debitis accusamus accusantium molestias corporis quibusdam pariatur odit nihil itaque tenetur delectus consectetur veniam. Maxime recusandae ducimus tempore. Laborum.</p>
+            <p>Místo, kde se z běžných smrtelníků stávají rytíři, čarodějové a průzkumníci... nebo alespoň něco jim podobného. Připrav se na dobrodružství, které možná nepřežiješ — ale rozhodně si ho užiješ.</p>
             <Action link="#kurzy" icon="list-tree">Nabídka kurzů</Action>
           </div>
           <video autoPlay loop muted playsInline className="hero-img">
@@ -27,9 +27,9 @@ const home = () => {
       <section id="o-nas" className="o-nas section-black">
         <SectionHeader icon="swords">O naší akademii</SectionHeader>
         <div className="text">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam aut, doloribus nostrum dolorem eligendi, dolores placeat quasi optio, commodi iure doloremque repellat obcaecati beatae aspernatur recusandae odio harum a consectetur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas minus quam assumenda temporibus alias commodi veniam facilis deleniti? Atque placeat omnis, consectetur maiores nihil mollitia eos fugiat numquam quos consequuntur.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae deserunt aperiam nulla quo sit quos at aut a doloremque ea! Aliquam animi doloribus at labore quo, impedit modi sequi numquam!</p>
-          <img src="/images/bg/gif.gif" alt="" />
+          <p>Akademie mýtických postav není obyčejná škola. Je to místo, kde se střetává odvaha, magie a chaos pod jednou děravou střechou. Přijímáme všechny, kdo mají chuť stát se hrdinou — nebo aspoň nevypadnout hned při první hodině výcviku. Učíme naše studenty ovládat meč, luk, kouzla i sebe (to poslední zatím moc nejde).</p>
+          <p>Každý nováček si vybere jednu ze tří cest: rytíře, průzkumníka nebo čaroděje. Ať už toužíš po lesku brnění, šípech v cíli nebo ohnivých koulích na dosah ruky, u nás najdeš své místo. Tedy... pokud tě dřív nesežere drak z učebnice magie.</p>
+          <img src="/images/bg/saf_village.png" alt="" />
         </div>
       </section>
       <section id="kurzy" className="kurzy section-black">
@@ -46,9 +46,9 @@ const home = () => {
       <section className="banner-section section-black">
         <img className="banner-bg" src="/images/bg/saf_bg2.png" alt="" />
         <Banner 
-          action={<Action link="#kurzy" icon="list-tree">Nabídka kurzů</Action>}
+          action={<Action link="#kurzy">Začít dobrodružství</Action>}
         >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum libero architecto numquam ut nihil. Ducimus numquam laborum exercitationem nemo.
+          Staň se tím, o kom se budou zpívat písně… nebo alespoň vtipy v hospodě. Akademie čeká na další odvážné duše.
         </Banner>
       </section>
       <Contact />
