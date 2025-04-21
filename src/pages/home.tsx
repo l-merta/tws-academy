@@ -16,7 +16,8 @@ const Home = () => {
         <img className="hero-bg" src="/images/bg/saf_bg.png" alt="" />
         <div className="container blur-effect">
           <div className="hero-text">
-            <h1>Akademie mýtických postav</h1>
+            {/* <h1>Akademie mýtických postav</h1> */}
+            <img className='logo' src="/images/logo_main.png" alt="" />
             <p>Místo, kde se z běžných smrtelníků stávají rytíři, čarodějové a průzkumníci... nebo alespoň něco jim podobného. Připrav se na dobrodružství, které možná nepřežiješ — ale rozhodně si ho užiješ.</p>
             <Action link="#kurzy" icon="list-tree">Nabídka kurzů</Action>
           </div>
