@@ -36,6 +36,7 @@ const Mage = () => {
       <div className="text">
         <p>Zvládni umění magie od nejjednoduššího světélka až po mocné zaklínadla ovládající živly. Kurz čaroděje je náročný, ale bohatě odměňující. Naučíš se základy kouzelnických jazyků, tvorbu run, práci s magickými předměty a samozřejmě ochranná kouzla a útoky.</p>
         <p>Výuka se koná každý den kromě neděle – pondělí a středy jsou věnovány teorii a kontrole many, úterky a čtvrtky magické praxi, a pátky experimentům (na vlastní nebezpečí). Soboty patří rituálům a konzultacím s mistry. Kurz je ideální pro ambiciózní jedince, kteří touží po vědění i moci.</p>
+        <div className="line"></div>
         <Animator anim='slide-right'>
           <div className="lecturer">
             <div className="person">

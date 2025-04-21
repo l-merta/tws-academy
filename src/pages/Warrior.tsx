@@ -36,6 +36,7 @@ const Warrior = () => {
       <div className="text">
         <p>Staň se opravdovým mistrem meče a obrany. Kurz rytíře tě naučí nejen bojovým technikám od základního šermu až po pokročilé taktiky v bitvách, ale také hodnotám jako je čest, odvaha a loajalita. Součástí výuky je i péče o zbroj, koně a správné použití bitevního pokřiku.</p>
         <p>Praktická výuka probíhá v tréninkové aréně třikrát týdně (pondělí, středa, pátek). Teoretická část včetně historie rytířských řádů a etiky boje se koná vždy v úterý. V rámci kurzu je možné absolvovat duelový turnaj a obdržet titul „Ocelový adept“.</p>
+        <div className="line"></div>
         <Animator anim='slide-right'>
           <div className="lecturer">
             <div className="person">

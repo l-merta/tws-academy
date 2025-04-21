@@ -36,6 +36,7 @@ const Scout = () => {
       <div className="text">
         <p>Být průzkumníkem není jen o tichém pohybu. Tento kurz tě naučí jak se nepozorovaně pohybovat, orientovat se v divočině a přežít v těch nejdrsnějších podmínkách. Důraz klademe na lukostřelbu, pastičkářství, základy alchymie a především rychlé rozhodování v terénu.</p>
         <p>Výuka probíhá převážně venku – lesy, ruiny a tajemné jeskyně jsou tvou třídou. Praktické výpravy se konají vždy o víkendech, zatímco pondělní večery patří teoriím, mapování a strategii. Kurz je ideální pro samotáře i týmové hráče se sklonem k dobrodružství.</p>
+        <div className="line"></div>
         <Animator anim='slide-right'>
           <div className="lecturer">
             <div className="person">

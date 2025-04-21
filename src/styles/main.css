@@ -167,8 +167,8 @@
   text-align: center;
 }
 .o-kurzu .lecturer .desc {
-  opacity: 0.8;
-  font: 600 1.3rem var(--font-1);
+  opacity: 1;
+  font: 400 1.3rem var(--font-1);
   max-width: 40rem;
 }
 
@@ -321,7 +321,7 @@ section {
   padding: 4rem var(--section-padding);
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 5rem;
 }
 section p {
   font: 400 1.4rem var(--font-1);
@@ -513,6 +513,15 @@ section.section-white {
 .review .s2 .text {
   font: 500 1rem var(--font-1);
   max-width: 40rem;
+}
+
+.line {
+  opacity: 1;
+  width: 30rem;
+  height: 0.2rem;
+  background-color: var(--color-1);
+  border-radius: 0.5rem;
+  margin: 2rem auto;
 }
 
 .slide-up {

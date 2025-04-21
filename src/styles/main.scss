@@ -181,8 +181,8 @@
       }
     }
     .desc {
-      opacity: 0.8;
-      font: 600 1.3rem var(--font-1);
+      opacity: 1.0;
+      font: 400 1.3rem var(--font-1);
       max-width: 40rem;
     }
   }
@@ -345,7 +345,7 @@ section {
   padding: 4.0rem var(--section-padding);
   display: flex;
   flex-direction: column;
-  gap: 3.0rem;
+  gap: 5.0rem;
 
   p {
     font: 400 1.4rem var(--font-1);
@@ -542,6 +542,14 @@ section {
       max-width: 40rem;
     }
   }
+}
+.line {
+  opacity: 1.0;
+  width: 30rem;
+  height: 0.2rem;
+  background-color: var(--color-1);
+  border-radius: 0.5rem;
+  margin: 2.0rem auto;
 }
 
 .slide-up {
