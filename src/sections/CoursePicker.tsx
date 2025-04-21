@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState } from 'react';
 
 import CoursePickerItem  from './../components/CoursePickerItem';
 

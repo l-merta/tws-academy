@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import Animator from './../managers/Animator';
+
 interface CoursePickerItemProps {
   children: React.ReactNode;
   header: string;
@@ -20,15 +22,17 @@ const CoursePickerItem:React.FC<CoursePickerItemProps> = (props: CoursePickerIte
   }
 
   return (
-    <Link to={link} className={'course-picker-item course-picker-item-' + active + ' course-picker-item-' + props.className} onMouseEnter={onHover}>
-      <div className="icon-container">
-        <img src={iconFile} alt="" />
-      </div>
-      <span className="course-text">
-        <span className='header'>{props.header}</span>
-        <p className='desc'>{props.children}</p>
-      </span>
-    </Link>
+    <Animator anim='slide-right'>
+      <Link to={link} className={'course-picker-item course-picker-item-' + active + ' course-picker-item-' + props.className} onMouseEnter={onHover}>
+        <div className="icon-container">
+          <img src={iconFile} alt="" />
+        </div>
+        <span className="course-text">
+          <span className='header'>{props.header}</span>
+          <p className='desc'>{props.children}</p>
+        </span>
+      </Link>
+    </Animator>
   )
 }
 

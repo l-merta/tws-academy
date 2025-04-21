@@ -11,7 +11,7 @@
 
   --color-1: rgb(218, 149, 0);
 
-  --header-height: 5rem;
+  --header-height: 6.5rem;
   --section-width: 90rem;
   --section-padding: 1.0rem;
 
@@ -29,4 +29,34 @@ body {
 body * {
   box-sizing: border-box;
   margin: 0;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+/* Custom scrollbar for WebKit browsers */
+::-webkit-scrollbar {
+  width: 0.5rem; /* Width of the scrollbar */
+  height: 0.5rem; /* Height of the scrollbar (for horizontal scrollbars) */
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-color-1); /* Background of the scrollbar track */
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-1); /* Color of the scrollbar thumb */
+  border-radius: 0.2rem; /* Rounded corners for the thumb */
+  transition: .12s;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-1);
+}
+
+::selection {
+  color: var(--font-color-1) !important;
+  background: var(--color-1) !important;
+}
+::-moz-selection {
+  color: var(--font-color-1) !important;
+  background: var(--color-1) !important;
 }

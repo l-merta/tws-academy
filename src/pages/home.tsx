@@ -1,4 +1,5 @@
 import Header from '../sections/Header';
+import Animator from '../managers/Animator';
 import SectionHeader from '../components/SectionHeader';
 import Action from '../components/Action';
 import CoursePicker from '../sections/CoursePicker';
@@ -14,24 +15,29 @@ const Home = () => {
       <Header />
       <main className="hero-main">
         <img className="hero-bg" src="/images/bg/saf_bg.png" alt="" />
-        <div className="container blur-effect">
-          <div className="hero-text">
-            <h1>Akademie mýtických postav</h1>
-            <p>Místo, kde se z běžných smrtelníků stávají rytíři, čarodějové a průzkumníci... nebo alespoň něco jim podobného. Připrav se na dobrodružství, které možná nepřežiješ — ale rozhodně si ho užiješ.</p>
-            <Action link="#kurzy" icon="list-tree">Nabídka kurzů</Action>
+        <Animator anim='slide-up' repeat={false}>
+          <div className="container blur-effect">
+            <div className="hero-text">
+              {/* <h1>Akademie mýtických postav</h1> */}
+              <img className='logo' src="/images/logo_main.png" alt="" />
+              <p>Místo, kde se z běžných smrtelníků stávají rytíři, čarodějové a průzkumníci... nebo alespoň něco jim podobného. Připrav se na dobrodružství, které možná nepřežiješ — ale rozhodně si ho užiješ.</p>
+              <Action link="#kurzy" icon="list-tree">Nabídka kurzů</Action>
+            </div>
+            <video autoPlay loop muted playsInline className="hero-img">
+              <source src={"/images/classes/warrior_animation_idle.webm"} type="video/webm" />
+              Your browser does not support the video tag.
+            </video>
           </div>
-          <video autoPlay loop muted playsInline className="hero-img">
-            <source src={"/images/classes/warrior_animation_idle.webm"} type="video/webm" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
+        </Animator>
       </main>
       <section id="o-nas" className="o-nas section-black">
         <SectionHeader icon="swords">O naší akademii</SectionHeader>
         <div className="text">
           <p>Akademie mýtických postav není obyčejná škola. Je to místo, kde se střetává odvaha, magie a chaos pod jednou děravou střechou. Přijímáme všechny, kdo mají chuť stát se hrdinou — nebo aspoň nevypadnout hned při první hodině výcviku. Učíme naše studenty ovládat meč, luk, kouzla i sebe (to poslední zatím moc nejde).</p>
           <p>Každý nováček si vybere jednu ze tří cest: rytíře, průzkumníka nebo čaroděje. Ať už toužíš po lesku brnění, šípech v cíli nebo ohnivých koulích na dosah ruky, u nás najdeš své místo. Tedy... pokud tě dřív nesežere drak z učebnice magie.</p>
-          <img src="/images/bg/saf_village.png" alt="" />
+          <Animator anim='slide-up'>
+            <img src="/images/bg/saf_village.png" alt="" />
+          </Animator>
         </div>
       </section>
       <section id="kurzy" className="kurzy section-black">
