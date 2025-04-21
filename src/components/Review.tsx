@@ -22,7 +22,7 @@ const Review:React.FC<ReviewProps> = (props: ReviewProps) => {
         </div>
         <div className="s2">
           <div className="name">{props.name}</div>
-          <div className="text">{props.children}</div>
+          <div className="review-text">{props.children}</div>
         </div>
       </div>
     </Animator>

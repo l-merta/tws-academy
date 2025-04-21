@@ -57,14 +57,16 @@
 }
 .hero-main .container .hero-img {
   aspect-ratio: 12/16;
-  width: 24rem;
+  width: 100%;
+  max-width: 24rem;
   -o-object-fit: cover;
      object-fit: cover;
   overflow: visible;
 }
 
 .o-nas img {
-  width: 40rem;
+  width: 100%;
+  max-width: 40rem;
   border-radius: 1rem;
   margin: 0 auto;
 }
@@ -174,7 +176,7 @@
 
 .recenze .text {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 2fr));
   gap: 4rem 2.5rem;
 }
 
@@ -211,6 +213,7 @@
 
 .kontakt .data-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 4rem;
@@ -244,8 +247,8 @@
 }
 .kontakt .data-container .text ul .contact-info-link .icon-container {
   background-color: rgba(255, 255, 255, 0.05);
-  width: 2.8rem;
-  height: 2.8rem;
+  width: 2.8rem !important;
+  height: 2.8rem !important;
   border: 1px solid var(--font-color);
   border-radius: 0.4rem;
   display: flex;
@@ -336,6 +339,7 @@ section.section-white {
 }
 
 .text {
+  width: 100%;
   max-width: var(--section-width);
   margin: 0 auto;
   display: flex;
@@ -354,9 +358,12 @@ section.section-white {
   position: relative;
 }
 .carousel .carousel-slide img {
+  aspect-ratio: 16/9;
   width: 100%;
   max-width: 50rem;
   border-radius: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .carousel .carousel-controls {
   width: 100%;
@@ -437,6 +444,7 @@ section.section-white {
   border-radius: 1.5rem;
   padding: 2rem 3rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
@@ -510,14 +518,15 @@ section.section-white {
   opacity: 0.6;
   font: 700 1rem var(--font-1);
 }
-.review .s2 .text {
+.review .s2 .review-text {
   font: 500 1rem var(--font-1);
   max-width: 40rem;
 }
 
 .line {
   opacity: 1;
-  width: 30rem;
+  width: 100%;
+  max-width: 100%;
   height: 0.2rem;
   background-color: var(--color-1);
   border-radius: 0.5rem;
@@ -567,5 +576,65 @@ section.section-white {
   100% {
     transform: translateY(0);
     opacity: 1;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .banner {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .recenze .text {
+    max-width: 100% !important;
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    justify-items: center;
+    gap: 3rem;
+  }
+  .recenze .text .review {
+    max-width: 100% !important;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .hero-main .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .hero-main .container .hero-text {
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .course-container {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .course-container nav .course-picker-item {
+    width: 100%;
+    height: 8rem;
+    padding: 1rem;
+  }
+  .course-container nav .course-picker-item .icon-container {
+    width: 7rem;
+  }
+  .course-container .display {
+    width: 100%;
+    max-width: 30rem;
+  }
+  .course-container .display .video-bg {
+    width: 100%;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  header nav {
+    display: none;
+  }
+  .o-kurzu .lecturer {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
   }
 }/*# sourceMappingURL=main.css.map */
