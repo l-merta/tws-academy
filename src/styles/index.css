@@ -31,6 +31,10 @@ body * {
   margin: 0;
 }
 
+.hidden {
+  opacity: 0;
+}
+
 /* Custom scrollbar for WebKit browsers */
 ::-webkit-scrollbar {
   width: 0.5rem; /* Width of the scrollbar */

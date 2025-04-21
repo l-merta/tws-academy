@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+
+import Animator from './../managers/Animator';
 
 interface BannerProps {
   children: React.ReactNode;
@@ -7,10 +9,12 @@ interface BannerProps {
 
 const Banner:React.FC<BannerProps> = (props: BannerProps) => {
   return (
-    <div className='banner blur-effect'>
-      <p>{props.children}</p>
-      {props.action}
-    </div>
+    <Animator anim='slide-right'>
+      <div className='banner blur-effect'>
+        <p>{props.children}</p>
+        {props.action}
+      </div>
+    </Animator>
   )
 }
 

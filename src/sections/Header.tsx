@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header>
+    <header className='slide-down'>
       <div className="logo">
         <Link to={'/'}>
           <img src="/images/logo_amp.png" alt="Logo" />
