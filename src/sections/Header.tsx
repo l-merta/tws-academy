@@ -4,7 +4,9 @@ const Header = () => {
   return (
     <header>
       <div className="logo">
-        <Link to={'/'}>Akademie</Link>
+        <Link to={'/'}>
+          <img src="/images/logo_amp.png" alt="Logo" />
+        </Link>
       </div>
       <nav>
         <ul className="nav-list">

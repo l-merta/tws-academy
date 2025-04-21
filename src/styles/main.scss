@@ -291,6 +291,13 @@ header {
   align-items: center;
   z-index: 100;
 
+  .logo {
+    height: 95%;
+
+    img {
+      height: 100%;
+    }
+  }
   nav ul {
     display: flex;
     align-items: center;
